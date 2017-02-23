@@ -1,0 +1,52 @@
+Value of system clock at start = 0
+Coordinates will be read from file: input.txt
+Natom = 10000
+cut =     0.5000
+Value of system clock after coord read = 0
+Value of system clock after coord read and E calc = 1510000
+                         Final Results
+                         -------------
+                   Num Pairs = 13884043
+                     Total E = 58368781.8191094771
+     Time to read coord file =         0.0000 Seconds
+         Time to calculate E =         1.5100 Seconds
+        Total Execution Time =         1.5100 Seconds
+Value of system clock at start = 0
+Coordinates will be read from file: input.txt
+Natom = 10000
+cut =     0.5000
+Value of system clock after coord read = 0
+Value of system clock after coord read and E calc = 930000
+                         Final Results
+                         -------------
+                   Num Pairs = 13884043
+                     Total E = 58368781.8191094771
+     Time to read coord file =         0.0000 Seconds
+         Time to calculate E =         0.9300 Seconds
+        Total Execution Time =         0.9300 Seconds
+Value of system clock at start = 0
+Coordinates will be read from file: input.txt
+Natom = 10000
+cut =     0.5000
+Value of system clock after coord read = 0
+Value of system clock after coord read and E calc = 900000
+                         Final Results
+                         -------------
+                   Num Pairs = 13884043
+                     Total E = 58368781.8191094771
+     Time to read coord file =         0.0000 Seconds
+         Time to calculate E =         0.9000 Seconds
+        Total Execution Time =         0.9000 Seconds
+Value of system clock at start = 0
+Coordinates will be read from file: input.txt
+Natom = 10000
+cut =     0.5000
+Value of system clock after coord read = 0
+Value of system clock after coord read and E calc = 900000
+                         Final Results
+                         -------------
+                   Num Pairs = 13884043
+                     Total E = 58368781.8191094771
+     Time to read coord file =         0.0000 Seconds
+         Time to calculate E =         0.9000 Seconds
+        Total Execution Time =         0.9000 Seconds

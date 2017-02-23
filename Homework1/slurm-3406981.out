@@ -1,0 +1,52 @@
+Value of system clock at start = 0
+Coordinates will be read from file: exinput.txt
+Natom = 20000
+cut =     0.5000
+Value of system clock after coord read = 10000
+Value of system clock after coord read and E calc = 8640000
+                         Final Results
+                         -------------
+                   Num Pairs = 55422880
+                     Total E = 233514419.9309899211
+     Time to read coord file =         0.0100 Seconds
+         Time to calculate E =         8.6300 Seconds
+        Total Execution Time =         8.6400 Seconds
+Value of system clock at start = 0
+Coordinates will be read from file: exinput.txt
+Natom = 20000
+cut =     0.5000
+Value of system clock after coord read = 10000
+Value of system clock after coord read and E calc = 4590000
+                         Final Results
+                         -------------
+                   Num Pairs = 55422880
+                     Total E = 233514419.9309899211
+     Time to read coord file =         0.0100 Seconds
+         Time to calculate E =         4.5800 Seconds
+        Total Execution Time =         4.5900 Seconds
+Value of system clock at start = 0
+Coordinates will be read from file: exinput.txt
+Natom = 20000
+cut =     0.5000
+Value of system clock after coord read = 10000
+Value of system clock after coord read and E calc = 4110000
+                         Final Results
+                         -------------
+                   Num Pairs = 55422880
+                     Total E = 233514419.9309899211
+     Time to read coord file =         0.0100 Seconds
+         Time to calculate E =         4.1000 Seconds
+        Total Execution Time =         4.1100 Seconds
+Value of system clock at start = 0
+Coordinates will be read from file: exinput.txt
+Natom = 20000
+cut =     0.5000
+Value of system clock after coord read = 10000
+Value of system clock after coord read and E calc = 4100000
+                         Final Results
+                         -------------
+                   Num Pairs = 55422880
+                     Total E = 233514419.9309899211
+     Time to read coord file =         0.0100 Seconds
+         Time to calculate E =         4.0900 Seconds
+        Total Execution Time =         4.1000 Seconds
