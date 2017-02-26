@@ -1,0 +1,42 @@
+
+real	1m21.933s
+user	0m0.248s
+sys	0m0.189s
+
+real	0m1.195s
+user	0m0.108s
+sys	0m0.028s
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+ls: cannot access star-collapse-*: No such file or directory
+
+real	1m1.676s
+user	0m0.196s
+sys	0m0.172s

@@ -1,0 +1,141 @@
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+AL lib: alsa_open_playback: Could not open playback device 'default': No such file or directory
+found bundled python: /sfs/nfs/blender/2.70/2.70/python
+read blend: /home/sr7cb/ParallelComputing/test/Star-collapse-ntsc.blend
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+2.66 versioning fix: replacing black sky with premultiplied alpha for scene 1
+Fra:14 Mem:10.47M (0.00M, Peak 10.47M) | Preparing Scene data
+Fra:14 Mem:13.62M (0.00M, Peak 13.64M) | Preparing Scene data
+Fra:14 Mem:13.63M (0.00M, Peak 13.64M) | Creating Shadowbuffers
+Fra:14 Mem:13.63M (0.00M, Peak 13.64M) | Caching Point Densities
+Fra:14 Mem:13.63M (0.00M, Peak 13.64M) Sce: 1 Ve:5329 Fa:3520 Ha:1318 La:1
+Fra:14 Mem:13.63M (0.00M, Peak 13.64M) | Loading voxel datasets
+Fra:14 Mem:13.63M (0.00M, Peak 13.64M) Sce: 1 Ve:5329 Fa:3520 Ha:1318 La:1
+Fra:14 Mem:13.64M (0.00M, Peak 13.64M) Sce: 1 Ve:5329 Fa:3520 Ha:1318 La:1
+Fra:14 Mem:13.64M (0.00M, Peak 13.64M) Sce: 1 Ve:5329 Fa:3520 Ha:1318 La:1
+Fra:14 Mem:69.12M (0.00M, Peak 94.08M) | 1, Part 2-4
+Fra:14 Mem:64.05M (0.00M, Peak 94.08M) | 1, Part 1-4
+Fra:14 Mem:46.92M (0.00M, Peak 94.08M) | 1, Part 4-4
+Fra:14 Mem:31.08M (0.00M, Peak 94.08M) | 1, Part 3-4
+Fra:14 Mem:24.90M (0.00M, Peak 94.08M) Sce: 1 Ve:5329 Fa:3520 Ha:1318 La:1
+Saved: star-collapse-0014 Time: 00:00.81 (Saving: 00:00.03)
+
+Error, region type 2 missing in - name:"Info", id:7
+Error, region type 4 missing in - name:"Info", id:7
+
+Blender quit
+
+real	9m8.401s
+user	0m2.681s
+sys	0m0.186s
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+AL lib: alsa_open_playback: Could not open playback device 'default': No such file or directory
+found bundled python: /sfs/nfs/blender/2.70/2.70/python
+read blend: /home/sr7cb/ParallelComputing/test/Star-collapse-ntsc.blend
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+2.66 versioning fix: replacing black sky with premultiplied alpha for scene 1
+Fra:94 Mem:10.52M (0.00M, Peak 10.52M) | Preparing Scene data
+Fra:94 Mem:13.73M (0.00M, Peak 13.77M) | Preparing Scene data
+Fra:94 Mem:13.75M (0.00M, Peak 13.77M) | Creating Shadowbuffers
+Fra:94 Mem:13.75M (0.00M, Peak 13.77M) | Caching Point Densities
+Fra:94 Mem:13.75M (0.00M, Peak 13.77M) Sce: 1 Ve:6289 Fa:5120 Ha:2417 La:1
+Fra:94 Mem:13.75M (0.00M, Peak 13.77M) | Loading voxel datasets
+Fra:94 Mem:13.75M (0.00M, Peak 13.77M) Sce: 1 Ve:6289 Fa:5120 Ha:2417 La:1
+Fra:94 Mem:13.75M (0.00M, Peak 13.77M) Sce: 1 Ve:6289 Fa:5120 Ha:2417 La:1
+Fra:94 Mem:13.75M (0.00M, Peak 13.77M) Sce: 1 Ve:6289 Fa:5120 Ha:2417 La:1
+Fra:94 Mem:78.21M (0.00M, Peak 90.96M) | 1, Part 2-4
+Fra:94 Mem:62.37M (0.00M, Peak 90.96M) | 1, Part 3-4
+Fra:94 Mem:46.78M (0.00M, Peak 90.96M) | 1, Part 1-4
+Fra:94 Mem:31.20M (0.00M, Peak 90.96M) | 1, Part 4-4
+Fra:94 Mem:24.96M (0.00M, Peak 90.96M) Sce: 1 Ve:6289 Fa:5120 Ha:2417 La:1
+Saved: star-collapse-0094 Time: 00:02.04 (Saving: 00:00.04)
+
+Error, region type 2 missing in - name:"Info", id:7
+Error, region type 4 missing in - name:"Info", id:7
+
+Blender quit
+
+real	0m3.650s
+user	0m4.975s
+sys	0m0.183s
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+AL lib: alsa_open_playback: Could not open playback device 'default': No such file or directory
+found bundled python: /sfs/nfs/blender/2.70/2.70/python
+read blend: /home/sr7cb/ParallelComputing/test/Star-collapse-ntsc.blend
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+2.66 versioning fix: replacing black sky with premultiplied alpha for scene 1
+Fra:174 Mem:10.55M (0.00M, Peak 10.55M) | Preparing Scene data
+Fra:174 Mem:13.81M (0.00M, Peak 13.85M) | Preparing Scene data
+Fra:174 Mem:13.83M (0.00M, Peak 13.85M) | Creating Shadowbuffers
+Fra:174 Mem:13.83M (0.00M, Peak 13.85M) | Caching Point Densities
+Fra:174 Mem:13.83M (0.00M, Peak 13.85M) Sce: 1 Ve:6361 Fa:5240 Ha:2608 La:1
+Fra:174 Mem:13.83M (0.00M, Peak 13.85M) | Loading voxel datasets
+Fra:174 Mem:13.83M (0.00M, Peak 13.85M) Sce: 1 Ve:6361 Fa:5240 Ha:2608 La:1
+Fra:174 Mem:13.83M (0.00M, Peak 13.85M) Sce: 1 Ve:6361 Fa:5240 Ha:2608 La:1
+Fra:174 Mem:13.83M (0.00M, Peak 13.85M) Sce: 1 Ve:6361 Fa:5240 Ha:2608 La:1
+Fra:174 Mem:78.19M (0.00M, Peak 98.98M) | 1, Part 1-4
+Fra:174 Mem:62.20M (0.00M, Peak 98.98M) | 1, Part 2-4
+Fra:174 Mem:46.74M (0.00M, Peak 98.98M) | 1, Part 3-4
+Fra:174 Mem:31.28M (0.00M, Peak 98.98M) | 1, Part 4-4
+Fra:174 Mem:24.99M (0.00M, Peak 98.98M) Sce: 1 Ve:6361 Fa:5240 Ha:2608 La:1
+Saved: star-collapse-0174 Time: 00:02.12 (Saving: 00:00.03)
+
+Error, region type 2 missing in - name:"Info", id:7
+Error, region type 4 missing in - name:"Info", id:7
+
+Blender quit
+
+real	0m3.762s
+user	0m5.348s
+sys	0m0.184s

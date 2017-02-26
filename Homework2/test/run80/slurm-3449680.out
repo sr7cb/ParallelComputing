@@ -1,0 +1,79 @@
+ALSA lib confmisc.c:768:(parse_card) cannot find card '0'
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_card_driver returned error: No such file or directory
+ALSA lib confmisc.c:392:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1251:(snd_func_refer) error evaluating name
+ALSA lib conf.c:4292:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:4771:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2266:(snd_pcm_open_noupdate) Unknown PCM default
+AL lib: alsa_open_playback: Could not open playback device 'default': No such file or directory
+found bundled python: /sfs/nfs/blender/2.70/2.70/python
+read blend: /home/sr7cb/ParallelComputing/test/Star-collapse-ntsc.blend
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+Old particle system converted to new system.
+2.66 versioning fix: replacing black sky with premultiplied alpha for scene 1
+Fra:190 Mem:10.58M (0.00M, Peak 10.58M) | Preparing Scene data
+Fra:190 Mem:13.93M (0.00M, Peak 13.97M) | Preparing Scene data
+Fra:190 Mem:13.96M (0.00M, Peak 13.97M) | Creating Shadowbuffers
+Fra:190 Mem:13.96M (0.00M, Peak 13.97M) | Caching Point Densities
+Fra:190 Mem:13.96M (0.00M, Peak 13.97M) Sce: 1 Ve:6361 Fa:5240 Ha:3346 La:1
+Fra:190 Mem:13.96M (0.00M, Peak 13.97M) | Loading voxel datasets
+Fra:190 Mem:13.96M (0.00M, Peak 13.97M) Sce: 1 Ve:6361 Fa:5240 Ha:3346 La:1
+Fra:190 Mem:13.96M (0.00M, Peak 13.97M) Sce: 1 Ve:6361 Fa:5240 Ha:3346 La:1
+Fra:190 Mem:13.96M (0.00M, Peak 13.97M) Sce: 1 Ve:6361 Fa:5240 Ha:3346 La:1
+Fra:190 Mem:78.20M (0.00M, Peak 92.98M) | 1, Part 1-4
+Fra:190 Mem:62.21M (0.00M, Peak 92.98M) | 1, Part 2-4
+Fra:190 Mem:46.87M (0.00M, Peak 92.98M) | 1, Part 3-4
+Fra:190 Mem:31.41M (0.00M, Peak 92.98M) | 1, Part 4-4
+Fra:190 Mem:25.02M (0.00M, Peak 92.98M) Sce: 1 Ve:6361 Fa:5240 Ha:3346 La:1
+Saved: star-collapse-0190 Time: 00:01.34 (Saving: 00:00.04)
+
+Fra:191 Mem:25.19M (0.00M, Peak 92.98M) | Preparing Scene data
+Fra:191 Mem:29.05M (0.00M, Peak 92.98M) | Preparing Scene data
+Fra:191 Mem:29.07M (0.00M, Peak 92.98M) | Creating Shadowbuffers
+Fra:191 Mem:29.07M (0.00M, Peak 92.98M) | Caching Point Densities
+Fra:191 Mem:29.07M (0.00M, Peak 92.98M) Sce: 1 Ve:7409 Fa:8646 Ha:3394 La:1
+Fra:191 Mem:29.07M (0.00M, Peak 92.98M) | Loading voxel datasets
+Fra:191 Mem:29.07M (0.00M, Peak 92.98M) Sce: 1 Ve:7409 Fa:8646 Ha:3394 La:1
+Fra:191 Mem:29.08M (0.00M, Peak 92.98M) Sce: 1 Ve:7409 Fa:8646 Ha:3394 La:1
+Fra:191 Mem:29.08M (0.00M, Peak 92.98M) Sce: 1 Ve:7409 Fa:8646 Ha:3394 La:1
+Fra:191 Mem:79.50M (0.00M, Peak 101.35M) | 1, Part 3-4
+Fra:191 Mem:63.38M (0.00M, Peak 101.35M) | 1, Part 2-4
+Fra:191 Mem:47.51M (0.00M, Peak 101.35M) | 1, Part 1-4
+Fra:191 Mem:32.05M (0.00M, Peak 101.35M) | 1, Part 4-4
+Fra:191 Mem:25.15M (0.00M, Peak 101.35M) Sce: 1 Ve:7409 Fa:8646 Ha:3394 La:1
+Saved: star-collapse-0191 Time: 00:01.28 (Saving: 00:00.02)
+
+Fra:192 Mem:25.19M (0.00M, Peak 101.35M) | Preparing Scene data
+Fra:192 Mem:29.05M (0.00M, Peak 101.35M) | Preparing Scene data
+Fra:192 Mem:29.08M (0.00M, Peak 101.35M) | Creating Shadowbuffers
+Fra:192 Mem:29.08M (0.00M, Peak 101.35M) | Caching Point Densities
+Fra:192 Mem:29.08M (0.00M, Peak 101.35M) Sce: 1 Ve:7409 Fa:8646 Ha:3439 La:1
+Fra:192 Mem:29.08M (0.00M, Peak 101.35M) | Loading voxel datasets
+Fra:192 Mem:29.08M (0.00M, Peak 101.35M) Sce: 1 Ve:7409 Fa:8646 Ha:3439 La:1
+Fra:192 Mem:29.08M (0.00M, Peak 101.35M) Sce: 1 Ve:7409 Fa:8646 Ha:3439 La:1
+Fra:192 Mem:29.08M (0.00M, Peak 101.35M) Sce: 1 Ve:7409 Fa:8646 Ha:3439 La:1
+Fra:192 Mem:79.09M (0.00M, Peak 101.68M) | 1, Part 1-4
+Fra:192 Mem:62.97M (0.00M, Peak 101.68M) | 1, Part 2-4
+Fra:192 Mem:38.20M (0.00M, Peak 101.68M) | 1, Part 3-4
+Fra:192 Mem:32.05M (0.00M, Peak 101.68M) | 1, Part 4-4
+Fra:192 Mem:25.15M (0.00M, Peak 101.68M) Sce: 1 Ve:7409 Fa:8646 Ha:3439 La:1
+Saved: star-collapse-0192 Time: 00:01.39 (Saving: 00:00.04)
+
+Error, region type 2 missing in - name:"Info", id:7
+Error, region type 4 missing in - name:"Info", id:7
+
+Blender quit
+
+real	0m4.939s
+user	0m7.833s
+sys	0m0.214s
