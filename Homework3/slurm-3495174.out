@@ -1,0 +1,40 @@
+
+  you can only have one compiler loaded at a time
+
+Grid: 16x16, Iterations per cell: 1
+, Iterations per snapshot: 1
+, Iterations: 1
+, Boundary Thickness: 1
+Grid: 16x16, Iterations per cell: 1
+, Iterations per snapshot: 1
+, Iterations: 1
+, Boundary Thickness: 1
+Grid: 16x16, Iterations per cell: 1
+, Iterations per snapshot: 1
+, Iterations: 1
+, Boundary Thickness: 1
+Grid: 16x16, Iterations per cell: 1
+, Iterations per snapshot: 1
+, Iterations: 1
+, Boundary Thickness: 1
+[udc-ba39-28i:19322] ompi_comm_peer_lookup: invalid peer index (4)
+PreinitilizationIteration start = 0Communication start[udc-ba39-28i:19322:0] Caught signal 11 (Segmentation fault)
+PreinitilizationIteration start = 0Communication startIteration: 1 / 1
+
+Execution time: 0 seconds
+PreinitilizationIteration start = 0Communication startIteration: 1 / 1
+
+Execution time: 0 seconds
+PreinitilizationIteration start = 0Communication start==== backtrace ====
+ 2 0x000000000005a50c mxm_handle_error()  /var/tmp/OFED_topdir/BUILD/mxm-3.5.3093/src/mxm/util/debug/debug.c:641
+ 3 0x000000000005a67c mxm_error_signal_handler()  /var/tmp/OFED_topdir/BUILD/mxm-3.5.3093/src/mxm/util/debug/debug.c:616
+ 4 0x0000000000032660 killpg()  ??:0
+ 5 0x0000000000005880 mca_pml_yalla_recv()  ??:0
+ 6 0x0000000000097c95 MPI_Recv()  ??:0
+ 7 0x0000000000401579 main()  ??:0
+ 8 0x000000000001ed1d __libc_start_main()  ??:0
+ 9 0x0000000000400bd9 _start()  ??:0
+===================
+--------------------------------------------------------------------------
+mpiexec noticed that process rank 3 with PID 19322 on node udc-ba39-28i exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
