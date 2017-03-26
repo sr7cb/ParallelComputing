@@ -1,10 +1,8 @@
 // This program simulates the flow of heat through a two-dimensional plate.
 // The number of grid cells used to model the plate as well as the number of
 //  iterations to simulate can be specified on the command-line as follows:
-//  ./heated_plate_sequential <columns> <rows> <iterations>
-// For example, to execute with a 500 x 500 grid for 250 iterations, use:
-//  ./heated_plate_sequential 500 500 250
-
+// ./halo <columns> <rows> <iterations_per_cell> <iterations_per_snapshot> <iterations> <boundary_thickness> SR 3/19/17
+// Sanil Rao Halo 3/19/17
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -28,12 +26,10 @@ void initialize_cells(float **cells, int n_x, int n_y);
 void create_snapshot(float **cells, int n_x, int n_y, int id);
 float **allocate_cells(int n_x, int n_y);
 void die(const char *error);
-float * copybuffer(float **cell, int tag, int num_rows, int numprocs, int boundary_thickness);
+float * copybuffer(float **cell, int tag, int num_rows, int numprocs, int boundary_thickness); // function transfer buffer from one computer to another SR 3/10/17
 
 
 int main(int argc, char **argv) {
-	// Record the start time of the program
-	time_t start_time = time(NULL);
 
 	// Extract the input parameters from the command line arguments
 	// Number of columns in the grid (default = 1,000)
@@ -50,8 +46,11 @@ int main(int argc, char **argv) {
 	int boundary_thickness = (argc > 6) ? atoi(argv[6]) : 1;
 
 	// Output the simulation parameters
-	printf("Grid: %dx%d, Iterations per cell: %d\n, Iterations per snapshot: %d\n, Iterations: %d\n, Boundary Thickness: %d\n", num_cols, num_rows, iters_per_cell, iters_per_cell, iterations, boundary_thickness);
+	//printf("Grid: %dx%d, Iterations per cell: %d\n, Iterations per snapshot: %d\n, Iterations: %d\n, Boundary Thickness: %d\n", num_cols, num_rows, iters_per_cell, iters_per_cell, iterations, boundary_thickness);
 
+	// Record the start time of the program
+	
+	//Initializing MPI environment SR 3/10/17
 	int numprocs, rank, namelen;
 	char processor_name[MPI_MAX_PROCESSOR_NAME];
 
@@ -60,7 +59,6 @@ int main(int argc, char **argv) {
 	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 	MPI_Get_processor_name(processor_name, &namelen);
 	MPI_Request request;
-	//change max procs to numprocs
 
 
 	// We allocate two arrays: one for the current time step and one for the next time step.
@@ -76,74 +74,35 @@ int main(int argc, char **argv) {
 	// Note that we only need to initialize the array for the current time
 	//  step, since we will write to the array for the next time step
 	//  during the first iteration.
-	printf("Rank=%d: Preinitilization\n", rank);
+	//printf("Rank=%d: Preinitialization\n", rank);
 	initialize_cells(cells[0], num_cols, num_rows/numprocs);
-
-	int rowsperproc = (num_rows/numprocs) + boundary_thickness*2;
+	
 	// Set the immutable boundary conditions in both copies of the array
 	int x, y, i, j;
+	// setting the left and right intital coditions. Same across all regions SR 3/10/17
 	for (y = boundary_thickness; y < (num_rows/numprocs) + boundary_thickness; y++) cells[0][y][0] = cells[1][y][0] = LEFT_BOUNDARY_VALUE;
 	for (y = boundary_thickness; y < (num_rows/numprocs) + boundary_thickness; y++) cells[0][y][num_cols + 1] = cells[1][y][num_cols + 1] = RIGHT_BOUNDARY_VALUE;
 
+	//Setting the top and bottom boundaries as those depend on the processor rank SR 3/10/17
 	if(rank == 0){	
 		for (x = 1; x <= num_cols; x++) cells[0][0][x] = cells[1][0][x] = TOP_BOUNDARY_VALUE;
+		for (x = 1; x <= num_cols; x++) cells[0][num_rows/numprocs+ boundary_thickness][x] = cells[1][num_rows/numprocs + boundary_thickness][x] = INITIAL_CELL_VALUE;
 	} else if (rank == numprocs - 1) {
+		for (x = 1; x <= num_cols; x++) cells[0][0][x] = cells[1][0][x] = INITIAL_CELL_VALUE;
 		for (x = 1; x <= num_cols; x++) cells[0][num_rows/numprocs+ boundary_thickness][x] = cells[1][num_rows/numprocs + boundary_thickness][x] = BOTTOM_BOUNDARY_VALUE;
 	} else{
 		for (x = 1; x <= num_cols; x++) cells[0][0][x] = cells[1][0][x] = INITIAL_CELL_VALUE;
 		for (x = 1; x <= num_cols; x++) cells[0][num_rows/numprocs+ boundary_thickness][x] = cells[1][num_rows/numprocs + boundary_thickness][x] = INITIAL_CELL_VALUE;
 	}
 
-	//int starting_point = rank * (num_rows/numprocs) + 1;
-	// Simulate the heat flow for the specified number of iterations
-	for (i = 0; i < iterations; i++) {
-		printf("rank=%d: Iteration start = %d\n",rank, i);
-		// Traverse the plate, computing the new value of each cell
-		for (y = boundary_thickness; y < (num_rows/numprocs) + boundary_thickness; y++) {
-			for (x = 1; x <= num_cols; x++) {
-				// The new value of this cell is the average of the old values of this cell's four neighbors
-				for(j = 1; j <=iters_per_cell; j++) {
-					cells[next_cells_index][y][x] = (cells[cur_cells_index][y][x - 1]  +
-							cells[cur_cells_index][y][x + 1]  +
-							cells[cur_cells_index][y - 1][x]  +
-							cells[cur_cells_index][y + 1][x]) * 0.25;
-				}
-			}
-		}
-
-		printf("rank=%d Communication start\n", rank);
-		// communication
-		if(rank != numprocs-1) {
-			printf("rank %d sending to rank %d\n", rank, rank+1);
-			MPI_Isend(copybuffer(cells[cur_cells_index], 1, num_rows, numprocs, boundary_thickness), boundary_thickness * (num_cols +2), MPI_FLOAT, rank + 1, 1, MPI_COMM_WORLD, &request);
-		} 
-		if (rank != 0) {
-			printf("rank %d sending to rank %d\n", rank, rank-1);
-			MPI_Isend(copybuffer(cells[cur_cells_index], 0, num_rows, numprocs, boundary_thickness), boundary_thickness * (num_cols+2), MPI_FLOAT, rank - 1, 0, MPI_COMM_WORLD, &request);
-		}	
-		if(rank != 0) {
-			printf("rank %d receiving to rank %d\n", rank, rank-1);
-			MPI_Recv(cells[cur_cells_index][0], boundary_thickness * (num_cols+2), MPI_FLOAT, rank - 1, 1, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-		} 
-		if (rank != numprocs-1) {
-			printf("rank %d receiving to rank %d\n", rank, rank+1);
-			MPI_Recv(cells[cur_cells_index][(num_rows/numprocs)+boundary_thickness], boundary_thickness * (num_cols+2), MPI_FLOAT, rank + 1, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-		}
-
-		// Swap the two arrays
-		cur_cells_index = next_cells_index;
-		next_cells_index = !cur_cells_index;
-		// Print the current progress
-		printf("Rank=%d: Iteration: %d / %d\n",rank, i + 1, iterations);
+	//Initialize the special hotspot cell by first finding the processor which it is located on and then putting it in the right location SR 3/19/17
+	if(num_rows >= hotSpotRow) {
+		if(rank == hotSpotRow/(num_rows/numprocs)) {	
+			cells[cur_cells_index][hotSpotRow/numprocs][hotSptCol]=hotSpotTemp;
+		 }
 	}
-		printf("Rank %d: all iterations finished\n", rank);
-		//cells[cur_cells_index][hotSpotRow][hotSptCol]=hotSpotTemp;
-
-		int final_cells = (iterations % 2 == 0) ? 0 : 1;
-	/*	if(rank != 0) {
-			printf("rank %d is sending its array to rank 0\n", rank);
-			MPI_Isend(cells[final_cells][boundary_thickness], (num_rows/numprocs)*(num_cols+2), MPI_FLOAT, 0, 2, MPI_COMM_WORLD, &request);
-		}*/
+	
+		/*int final_cells = 0;
 		if(rank == 0) {	
 			int k;
 			float **output = allocate_cells(num_cols + 2, num_rows + 2);
@@ -160,6 +119,80 @@ int main(int argc, char **argv) {
 			}
 
 			// Output a snapshot of the final state of the plate
+			create_snapshot(output, num_cols, num_rows, 0);
+		}
+		if(rank != 0) {
+			printf("rank %d is sending its array to rank 0\n", rank);
+			MPI_Isend(cells[final_cells][boundary_thickness], (num_rows/numprocs)*(num_cols+2), MPI_FLOAT, 0, 2, MPI_COMM_WORLD, &request);
+		}*/
+	// Simulate the heat flow for the specified number of iterations
+	MPI_Barrier(MPI_COMM_WORLD);
+	time_t ranks;
+	time_t start_time = time(&ranks);
+	for (i = 0; i < iterations; i++) {
+	//	printf("rank=%d: Iteration start = %d\n",rank, i);
+		// Traverse the plate, computing the new value of each cell
+		for (y = boundary_thickness; y < (num_rows/numprocs) + boundary_thickness; y++) {
+			for (x = 1; x <= num_cols; x++) {
+				// The new value of this cell is the average of the old values of this cell's four neighbors
+				for(j = 1; j <=iters_per_cell; j++) {
+					cells[next_cells_index][y][x] = (cells[cur_cells_index][y][x - 1]  +
+							cells[cur_cells_index][y][x + 1]  +
+							cells[cur_cells_index][y - 1][x]  +
+							cells[cur_cells_index][y + 1][x]) * 0.25;
+				}
+			}
+		}
+
+	//	printf("rank=%d Communication start\n", rank);
+	
+		// Communication phase sending the appropriate information across nodes synchronous in this code  3/10/17
+		if(rank != numprocs-1) {
+	//		printf("rank %d sending to rank %d\n", rank, rank+1);
+			MPI_Isend(copybuffer(cells[cur_cells_index], 1, num_rows, numprocs, boundary_thickness), boundary_thickness * (num_cols +2), MPI_FLOAT, rank + 1, 1, MPI_COMM_WORLD, &request);
+		} 
+		if (rank != 0) {
+	//		printf("rank %d sending to rank %d\n", rank, rank-1);
+			MPI_Isend(copybuffer(cells[cur_cells_index], 0, num_rows, numprocs, boundary_thickness), boundary_thickness * (num_cols+2), MPI_FLOAT, rank - 1, 0, MPI_COMM_WORLD, &request);
+		}	
+		if(rank != 0) {
+	//		printf("rank %d receiving to rank %d\n", rank, rank-1);
+			MPI_Recv(cells[cur_cells_index][0], boundary_thickness * (num_cols+2), MPI_FLOAT, rank - 1, 1, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+		} 
+		if (rank != numprocs-1) {
+	//		printf("rank %d receiving to rank %d\n", rank, rank+1);
+			MPI_Recv(cells[cur_cells_index][(num_rows/numprocs)+boundary_thickness], boundary_thickness * (num_cols+2), MPI_FLOAT, rank + 1, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+		}
+
+		// Swap the two arrays
+		cur_cells_index = next_cells_index;
+		next_cells_index = !cur_cells_index;
+		// Print the current progress
+	//	printf("Rank=%d: Iteration: %d / %d\n",rank, i + 1, iterations);
+	}
+//		printf("Rank %d: all iterations finished\n", rank);
+		MPI_Barrier(MPI_COMM_WORLD);
+		time_t end_time = time(&ranks);
+		printf("\nrank %d: execution time: %d seconds\n", rank, (int) difftime(end_time, start_time));
+	
+		int final_cells;
+		final_cells = (iterations % 2 == 0) ? 0 : 1;
+		if(rank == 0) {	
+			int k;
+			float **output = allocate_cells(num_cols + 2, num_rows + 2);
+			int x , y;
+			printf("rank %d is copying its own buffer\n", rank);
+			for(x = boundary_thickness; x < (num_rows/numprocs) + boundary_thickness; x++) {
+				for(y = 0; y < (num_cols +2); y++) {
+					output[x+1-boundary_thickness][y] = cells[final_cells][x][y];
+				}
+			}
+			for(k = 1; k < numprocs; k++) {
+				printf("rank %d is receiving the array from rank %d\n", rank, k);
+				MPI_Recv(output[(num_rows/numprocs) * k + 1], (num_rows/numprocs)*(num_cols+2), MPI_FLOAT, k, 2, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+			}
+
+			// Output a snapshot of the final state of the plate
 			create_snapshot(output, num_cols, num_rows, iterations);
 		}
 		if(rank != 0) {
@@ -167,13 +200,16 @@ int main(int argc, char **argv) {
 			MPI_Isend(cells[final_cells][boundary_thickness], (num_rows/numprocs)*(num_cols+2), MPI_FLOAT, 0, 2, MPI_COMM_WORLD, &request);
 		}
 		// Compute and output the execution time
-		time_t end_time = time(NULL);
-		printf("\nrank %d: execution time: %d seconds\n", rank, (int) difftime(end_time, start_time));
+	
+		//Stitching the final grid back together by sending all grids back to the master processor which puts those cells in the right location	
 
 	MPI_Finalize();
 	return 0;
 }
-
+/*
+ * Method to determine the starting point of the buffer to be spent to each other processor. SR 3/19/17 
+ * 
+ */
 float * copybuffer(float **cell, int tag, int num_rows, int numprocs, int boundary_thickness) {
 	if(tag == 1) {
 		return cell[(num_rows/numprocs)];

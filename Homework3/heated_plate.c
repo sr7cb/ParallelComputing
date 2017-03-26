@@ -19,7 +19,7 @@
 #define INITIAL_CELL_VALUE 50.0
 #define hotSpotRow 4500
 #define hotSptCol 6500
-#define hotSpotTemp=1000;
+#define hotSpotTemp 1000
 
 
 // Function prototypes

@@ -1,11 +1,11 @@
 #!/bin/bash
-#SBATCH --nodes=4
-#SBATCH --ntasks-per-node=1
+#SBATCH --nodes=8
+#SBATCH --ntasks-per-node=20
 #SBATCH --partition=training
-#SBATCH --time=00:30:00
+#SBATCH --time=01:30:00
 #SBATCH --mem-per-cpu=1000
 #SBATCH --account=parallelcomputing
-
+#SBATCH --output=200procs4ipc4bt
 module	load openmpi/gcc/4.8.5/2.0.0
 
-mpiexec ./halo 16 16 1 1 1 1 
+mpiexec ./halo 10000 10000 4 1 10000 4

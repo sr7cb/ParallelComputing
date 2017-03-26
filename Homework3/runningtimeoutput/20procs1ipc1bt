@@ -1,0 +1,82 @@
+
+  you can only have one compiler loaded at a time
+
+
+rank 0: execution time: 1002 seconds
+rank 0 is copying its own buffer
+
+rank 1: execution time: 1002 seconds
+rank 1 is sending its array to rank 0
+
+rank 2: execution time: 1002 seconds
+rank 2 is sending its array to rank 0
+
+rank 3: execution time: 1002 seconds
+rank 3 is sending its array to rank 0
+
+rank 4: execution time: 1002 seconds
+rank 4 is sending its array to rank 0
+
+rank 10: execution time: 1002 seconds
+rank 10 is sending its array to rank 0
+
+rank 5: execution time: 1002 seconds
+rank 5 is sending its array to rank 0
+
+rank 15: execution time: 1002 seconds
+rank 15 is sending its array to rank 0
+
+rank 11: execution time: 1002 seconds
+rank 11 is sending its array to rank 0
+
+rank 6: execution time: 1002 seconds
+rank 6 is sending its array to rank 0
+
+rank 16: execution time: 1002 seconds
+rank 16 is sending its array to rank 0
+
+rank 12: execution time: 1002 seconds
+rank 12 is sending its array to rank 0
+
+rank 7: execution time: 1002 seconds
+rank 7 is sending its array to rank 0
+
+rank 17: execution time: 1002 seconds
+rank 17 is sending its array to rank 0
+
+rank 13: execution time: 1002 seconds
+rank 13 is sending its array to rank 0
+
+rank 8: execution time: 1002 seconds
+rank 8 is sending its array to rank 0
+
+rank 18: execution time: 1002 seconds
+rank 18 is sending its array to rank 0
+
+rank 14: execution time: 1002 seconds
+rank 14 is sending its array to rank 0
+
+rank 9: execution time: 1002 seconds
+rank 9 is sending its array to rank 0
+
+rank 19: execution time: 1002 seconds
+rank 19 is sending its array to rank 0
+rank 0 is receiving the array from rank 1
+rank 0 is receiving the array from rank 2
+rank 0 is receiving the array from rank 3
+rank 0 is receiving the array from rank 4
+rank 0 is receiving the array from rank 5
+rank 0 is receiving the array from rank 6
+rank 0 is receiving the array from rank 7
+rank 0 is receiving the array from rank 8
+rank 0 is receiving the array from rank 9
+rank 0 is receiving the array from rank 10
+rank 0 is receiving the array from rank 11
+rank 0 is receiving the array from rank 12
+rank 0 is receiving the array from rank 13
+rank 0 is receiving the array from rank 14
+rank 0 is receiving the array from rank 15
+rank 0 is receiving the array from rank 16
+rank 0 is receiving the array from rank 17
+rank 0 is receiving the array from rank 18
+rank 0 is receiving the array from rank 19
