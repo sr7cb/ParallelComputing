@@ -1,11 +1,11 @@
 #!/bin/bash
-#SBATCH --nodes=8
+#SBATCH --nodes=10
 #SBATCH --ntasks-per-node=20
-#SBATCH --partition=training
+#SBATCH --partition=eqa-cs6414
 #SBATCH --time=01:30:00
 #SBATCH --mem-per-cpu=1000
 #SBATCH --account=parallelcomputing
-#SBATCH --output=200procs4ipc4bt
+#SBATCH --output=200procs4ipc1bt
 module	load openmpi/gcc/4.8.5/2.0.0
 
-mpiexec ./halo 10000 10000 4 1 10000 4
+mpiexec ./halo 10000 10000 4 1 10000 1

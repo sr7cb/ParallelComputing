@@ -1,304 +1,304 @@
 
-rank 10: execution time: 251 seconds
-rank 10 is sending its array to rank 0
-
-rank 11: execution time: 251 seconds
-rank 11 is sending its array to rank 0
-
-rank 12: execution time: 251 seconds
-rank 12 is sending its array to rank 0
-
-rank 13: execution time: 251 seconds
-rank 13 is sending its array to rank 0
-
-rank 14: execution time: 251 seconds
-rank 14 is sending its array to rank 0
-
-rank 15: execution time: 251 seconds
-rank 15 is sending its array to rank 0
-
-rank 16: execution time: 251 seconds
-rank 16 is sending its array to rank 0
-
-rank 17: execution time: 251 seconds
-rank 17 is sending its array to rank 0
-
-rank 18: execution time: 251 seconds
-rank 18 is sending its array to rank 0
-
-rank 19: execution time: 251 seconds
-rank 19 is sending its array to rank 0
-
-rank 0: execution time: 251 seconds
+rank 0: execution time: 77 seconds
 rank 0 is copying its own buffer
 
-rank 1: execution time: 251 seconds
+rank 1: execution time: 77 seconds
 rank 1 is sending its array to rank 0
 
-rank 2: execution time: 251 seconds
+rank 2: execution time: 77 seconds
 rank 2 is sending its array to rank 0
 
-rank 3: execution time: 251 seconds
+rank 3: execution time: 77 seconds
 rank 3 is sending its array to rank 0
 
-rank 4: execution time: 251 seconds
+rank 4: execution time: 77 seconds
 rank 4 is sending its array to rank 0
 
-rank 5: execution time: 251 seconds
+rank 5: execution time: 77 seconds
 rank 5 is sending its array to rank 0
 
-rank 6: execution time: 251 seconds
+rank 6: execution time: 77 seconds
 rank 6 is sending its array to rank 0
 
-rank 7: execution time: 251 seconds
+rank 7: execution time: 77 seconds
 rank 7 is sending its array to rank 0
 
-rank 8: execution time: 251 seconds
+rank 8: execution time: 77 seconds
 rank 8 is sending its array to rank 0
 
-rank 9: execution time: 251 seconds
+rank 9: execution time: 77 seconds
 rank 9 is sending its array to rank 0
 
-rank 84: execution time: 251 seconds
-rank 84 is sending its array to rank 0
+rank 10: execution time: 77 seconds
+rank 10 is sending its array to rank 0
 
-rank 24: execution time: 251 seconds
-rank 24 is sending its array to rank 0
+rank 11: execution time: 77 seconds
+rank 11 is sending its array to rank 0
 
-rank 72: execution time: 251 seconds
-rank 72 is sending its array to rank 0
+rank 12: execution time: 77 seconds
+rank 12 is sending its array to rank 0
 
-rank 85: execution time: 251 seconds
-rank 85 is sending its array to rank 0
+rank 13: execution time: 77 seconds
+rank 13 is sending its array to rank 0
 
-rank 52: execution time: 251 seconds
-rank 52 is sending its array to rank 0
+rank 14: execution time: 77 seconds
+rank 14 is sending its array to rank 0
 
-rank 25: execution time: 251 seconds
-rank 25 is sending its array to rank 0
+rank 15: execution time: 77 seconds
+rank 15 is sending its array to rank 0
 
-rank 73: execution time: 251 seconds
-rank 73 is sending its array to rank 0
+rank 16: execution time: 77 seconds
+rank 16 is sending its array to rank 0
 
-rank 86: execution time: 251 seconds
-rank 86 is sending its array to rank 0
+rank 17: execution time: 77 seconds
+rank 17 is sending its array to rank 0
 
-rank 53: execution time: 251 seconds
-rank 53 is sending its array to rank 0
+rank 18: execution time: 77 seconds
+rank 18 is sending its array to rank 0
 
-rank 26: execution time: 251 seconds
-rank 26 is sending its array to rank 0
+rank 19: execution time: 77 seconds
+rank 19 is sending its array to rank 0
 
-rank 74: execution time: 251 seconds
-rank 74 is sending its array to rank 0
-
-rank 87: execution time: 251 seconds
-rank 87 is sending its array to rank 0
-
-rank 54: execution time: 251 seconds
-rank 54 is sending its array to rank 0
-
-rank 27: execution time: 251 seconds
-rank 27 is sending its array to rank 0
-
-rank 75: execution time: 251 seconds
-rank 75 is sending its array to rank 0
-
-rank 88: execution time: 251 seconds
-rank 88 is sending its array to rank 0
-
-rank 55: execution time: 251 seconds
-rank 55 is sending its array to rank 0
-
-rank 28: execution time: 251 seconds
-rank 28 is sending its array to rank 0
-
-rank 76: execution time: 251 seconds
-rank 76 is sending its array to rank 0
-
-rank 89: execution time: 251 seconds
-rank 89 is sending its array to rank 0
-
-rank 56: execution time: 251 seconds
-rank 56 is sending its array to rank 0
-
-rank 90: execution time: 251 seconds
-rank 90 is sending its array to rank 0
-
-rank 29: execution time: 251 seconds
-rank 29 is sending its array to rank 0
-
-rank 77: execution time: 251 seconds
-rank 77 is sending its array to rank 0
-
-rank 91: execution time: 251 seconds
-rank 91 is sending its array to rank 0
-
-rank 57: execution time: 251 seconds
-rank 57 is sending its array to rank 0
-
-rank 30: execution time: 251 seconds
-rank 30 is sending its array to rank 0
-
-rank 78: execution time: 251 seconds
-rank 78 is sending its array to rank 0
-
-rank 92: execution time: 251 seconds
-rank 92 is sending its array to rank 0
-
-rank 58: execution time: 251 seconds
-rank 58 is sending its array to rank 0
-
-rank 31: execution time: 251 seconds
-rank 31 is sending its array to rank 0
-
-rank 79: execution time: 251 seconds
-rank 79 is sending its array to rank 0
-
-rank 93: execution time: 251 seconds
-rank 93 is sending its array to rank 0
-
-rank 59: execution time: 251 seconds
-rank 59 is sending its array to rank 0
-
-rank 32: execution time: 251 seconds
-rank 32 is sending its array to rank 0
-
-rank 60: execution time: 251 seconds
-rank 60 is sending its array to rank 0
-
-rank 94: execution time: 251 seconds
-rank 94 is sending its array to rank 0
-
-rank 40: execution time: 251 seconds
-rank 40 is sending its array to rank 0
-
-rank 33: execution time: 251 seconds
-rank 33 is sending its array to rank 0
-
-rank 61: execution time: 251 seconds
-rank 61 is sending its array to rank 0
-
-rank 95: execution time: 251 seconds
-rank 95 is sending its array to rank 0
-
-rank 41: execution time: 251 seconds
-rank 41 is sending its array to rank 0
-
-rank 34: execution time: 251 seconds
+rank 34: execution time: 77 seconds
 rank 34 is sending its array to rank 0
 
-rank 62: execution time: 251 seconds
-rank 62 is sending its array to rank 0
-
-rank 96: execution time: 251 seconds
-rank 96 is sending its array to rank 0
-
-rank 42: execution time: 251 seconds
-rank 42 is sending its array to rank 0
-
-rank 35: execution time: 251 seconds
-rank 35 is sending its array to rank 0
-
-rank 63: execution time: 251 seconds
-rank 63 is sending its array to rank 0
-
-rank 97: execution time: 251 seconds
-rank 97 is sending its array to rank 0
-
-rank 43: execution time: 251 seconds
-rank 43 is sending its array to rank 0
-
-rank 36: execution time: 251 seconds
-rank 36 is sending its array to rank 0
-
-rank 64: execution time: 251 seconds
-rank 64 is sending its array to rank 0
-
-rank 98: execution time: 251 seconds
-rank 98 is sending its array to rank 0
-
-rank 44: execution time: 251 seconds
-rank 44 is sending its array to rank 0
-
-rank 37: execution time: 251 seconds
-rank 37 is sending its array to rank 0
-
-rank 65: execution time: 251 seconds
-rank 65 is sending its array to rank 0
-
-rank 99: execution time: 251 seconds
-rank 99 is sending its array to rank 0
-
-rank 45: execution time: 251 seconds
-rank 45 is sending its array to rank 0
-
-rank 38: execution time: 251 seconds
-rank 38 is sending its array to rank 0
-
-rank 66: execution time: 251 seconds
-rank 66 is sending its array to rank 0
-
-rank 80: execution time: 251 seconds
-rank 80 is sending its array to rank 0
-
-rank 46: execution time: 251 seconds
-rank 46 is sending its array to rank 0
-
-rank 39: execution time: 251 seconds
-rank 39 is sending its array to rank 0
-
-rank 67: execution time: 251 seconds
-rank 67 is sending its array to rank 0
-
-rank 81: execution time: 251 seconds
+rank 81: execution time: 77 seconds
 rank 81 is sending its array to rank 0
 
-rank 47: execution time: 251 seconds
-rank 47 is sending its array to rank 0
+rank 40: execution time: 77 seconds
+rank 40 is sending its array to rank 0
 
-rank 20: execution time: 251 seconds
-rank 20 is sending its array to rank 0
+rank 66: execution time: 77 seconds
+rank 66 is sending its array to rank 0
 
-rank 68: execution time: 251 seconds
-rank 68 is sending its array to rank 0
+rank 35: execution time: 77 seconds
+rank 35 is sending its array to rank 0
 
-rank 82: execution time: 251 seconds
+rank 82: execution time: 77 seconds
 rank 82 is sending its array to rank 0
 
-rank 48: execution time: 251 seconds
-rank 48 is sending its array to rank 0
+rank 41: execution time: 77 seconds
+rank 41 is sending its array to rank 0
 
-rank 21: execution time: 251 seconds
-rank 21 is sending its array to rank 0
+rank 67: execution time: 77 seconds
+rank 67 is sending its array to rank 0
 
-rank 69: execution time: 251 seconds
-rank 69 is sending its array to rank 0
+rank 36: execution time: 77 seconds
+rank 36 is sending its array to rank 0
 
-rank 83: execution time: 251 seconds
+rank 83: execution time: 77 seconds
 rank 83 is sending its array to rank 0
 
-rank 49: execution time: 251 seconds
-rank 49 is sending its array to rank 0
+rank 42: execution time: 77 seconds
+rank 42 is sending its array to rank 0
 
-rank 22: execution time: 251 seconds
-rank 22 is sending its array to rank 0
+rank 68: execution time: 77 seconds
+rank 68 is sending its array to rank 0
 
-rank 70: execution time: 251 seconds
+rank 37: execution time: 77 seconds
+rank 37 is sending its array to rank 0
+
+rank 84: execution time: 77 seconds
+rank 84 is sending its array to rank 0
+
+rank 43: execution time: 77 seconds
+rank 43 is sending its array to rank 0
+
+rank 69: execution time: 77 seconds
+rank 69 is sending its array to rank 0
+
+rank 38: execution time: 77 seconds
+rank 38 is sending its array to rank 0
+
+rank 85: execution time: 77 seconds
+rank 85 is sending its array to rank 0
+
+rank 44: execution time: 77 seconds
+rank 44 is sending its array to rank 0
+
+rank 70: execution time: 77 seconds
 rank 70 is sending its array to rank 0
 
-rank 50: execution time: 251 seconds
-rank 50 is sending its array to rank 0
+rank 39: execution time: 77 seconds
+rank 39 is sending its array to rank 0
 
-rank 23: execution time: 251 seconds
-rank 23 is sending its array to rank 0
+rank 20: execution time: 77 seconds
+rank 20 is sending its array to rank 0
 
-rank 71: execution time: 251 seconds
+rank 86: execution time: 77 seconds
+rank 86 is sending its array to rank 0
+
+rank 45: execution time: 77 seconds
+rank 45 is sending its array to rank 0
+
+rank 71: execution time: 77 seconds
 rank 71 is sending its array to rank 0
 
-rank 51: execution time: 251 seconds
+rank 21: execution time: 77 seconds
+rank 21 is sending its array to rank 0
+
+rank 87: execution time: 77 seconds
+rank 87 is sending its array to rank 0
+
+rank 46: execution time: 77 seconds
+rank 46 is sending its array to rank 0
+
+rank 72: execution time: 77 seconds
+rank 72 is sending its array to rank 0
+
+rank 22: execution time: 77 seconds
+rank 22 is sending its array to rank 0
+
+rank 88: execution time: 77 seconds
+rank 88 is sending its array to rank 0
+
+rank 47: execution time: 77 seconds
+rank 47 is sending its array to rank 0
+
+rank 73: execution time: 77 seconds
+rank 73 is sending its array to rank 0
+
+rank 23: execution time: 77 seconds
+rank 23 is sending its array to rank 0
+
+rank 89: execution time: 77 seconds
+rank 89 is sending its array to rank 0
+
+rank 48: execution time: 77 seconds
+rank 48 is sending its array to rank 0
+
+rank 74: execution time: 77 seconds
+rank 74 is sending its array to rank 0
+
+rank 24: execution time: 77 seconds
+rank 24 is sending its array to rank 0
+
+rank 90: execution time: 77 seconds
+rank 90 is sending its array to rank 0
+
+rank 49: execution time: 77 seconds
+rank 49 is sending its array to rank 0
+
+rank 75: execution time: 77 seconds
+rank 75 is sending its array to rank 0
+
+rank 25: execution time: 77 seconds
+rank 25 is sending its array to rank 0
+
+rank 91: execution time: 77 seconds
+rank 91 is sending its array to rank 0
+
+rank 50: execution time: 77 seconds
+rank 50 is sending its array to rank 0
+
+rank 76: execution time: 77 seconds
+rank 76 is sending its array to rank 0
+
+rank 26: execution time: 77 seconds
+rank 26 is sending its array to rank 0
+
+rank 92: execution time: 77 seconds
+rank 92 is sending its array to rank 0
+
+rank 51: execution time: 77 seconds
 rank 51 is sending its array to rank 0
+
+rank 77: execution time: 77 seconds
+rank 77 is sending its array to rank 0
+
+rank 27: execution time: 77 seconds
+rank 27 is sending its array to rank 0
+
+rank 93: execution time: 77 seconds
+rank 93 is sending its array to rank 0
+
+rank 52: execution time: 77 seconds
+rank 52 is sending its array to rank 0
+
+rank 78: execution time: 77 seconds
+rank 78 is sending its array to rank 0
 rank 0 is receiving the array from rank 1
+
+rank 28: execution time: 77 seconds
+rank 28 is sending its array to rank 0
+
+rank 94: execution time: 77 seconds
+rank 94 is sending its array to rank 0
+
+rank 53: execution time: 77 seconds
+rank 53 is sending its array to rank 0
+
+rank 79: execution time: 77 seconds
+rank 79 is sending its array to rank 0
+
+rank 29: execution time: 77 seconds
+rank 29 is sending its array to rank 0
+
+rank 95: execution time: 77 seconds
+rank 95 is sending its array to rank 0
+
+rank 54: execution time: 77 seconds
+rank 54 is sending its array to rank 0
+
+rank 60: execution time: 77 seconds
+rank 60 is sending its array to rank 0
+
+rank 30: execution time: 77 seconds
+rank 30 is sending its array to rank 0
+
+rank 96: execution time: 77 seconds
+rank 96 is sending its array to rank 0
+
+rank 55: execution time: 77 seconds
+rank 55 is sending its array to rank 0
+
+rank 61: execution time: 77 seconds
+rank 61 is sending its array to rank 0
+
+rank 31: execution time: 77 seconds
+rank 31 is sending its array to rank 0
+
+rank 97: execution time: 77 seconds
+rank 97 is sending its array to rank 0
+
+rank 56: execution time: 77 seconds
+rank 56 is sending its array to rank 0
+
+rank 62: execution time: 77 seconds
+rank 62 is sending its array to rank 0
+
+rank 32: execution time: 77 seconds
+rank 32 is sending its array to rank 0
+
+rank 98: execution time: 77 seconds
+rank 98 is sending its array to rank 0
+
+rank 57: execution time: 77 seconds
+rank 57 is sending its array to rank 0
+
+rank 63: execution time: 77 seconds
+rank 63 is sending its array to rank 0
+
+rank 33: execution time: 77 seconds
+rank 33 is sending its array to rank 0
+
+rank 99: execution time: 77 seconds
+rank 99 is sending its array to rank 0
+
+rank 58: execution time: 77 seconds
+rank 58 is sending its array to rank 0
+
+rank 64: execution time: 77 seconds
+rank 64 is sending its array to rank 0
+
+rank 80: execution time: 77 seconds
+rank 80 is sending its array to rank 0
+
+rank 59: execution time: 77 seconds
+rank 59 is sending its array to rank 0
+
+rank 65: execution time: 77 seconds
+rank 65 is sending its array to rank 0
 rank 0 is receiving the array from rank 2
 rank 0 is receiving the array from rank 3
 rank 0 is receiving the array from rank 4

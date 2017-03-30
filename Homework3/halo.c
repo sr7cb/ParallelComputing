@@ -117,7 +117,6 @@ int main(int argc, char **argv) {
 				printf("rank %d is receiving the array from rank %d\n", rank, k);
 				MPI_Recv(output[(num_rows/numprocs) * k + 1], (num_rows/numprocs)*(num_cols+2), MPI_FLOAT, k, 2, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
 			}
-
 			// Output a snapshot of the final state of the plate
 			create_snapshot(output, num_cols, num_rows, 0);
 		}
