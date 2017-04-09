@@ -1,0 +1,799 @@
+
+rank 0: execution time: 43 seconds
+rank 0 is copying its own buffer
+
+rank 1: execution time: 43 seconds
+rank 1 is sending its array to rank 0
+
+rank 2: execution time: 43 seconds
+rank 2 is sending its array to rank 0
+
+rank 3: execution time: 43 seconds
+rank 3 is sending its array to rank 0
+
+rank 4: execution time: 43 seconds
+rank 4 is sending its array to rank 0
+
+rank 5: execution time: 43 seconds
+rank 5 is sending its array to rank 0
+
+rank 6: execution time: 43 seconds
+rank 6 is sending its array to rank 0
+
+rank 7: execution time: 43 seconds
+rank 7 is sending its array to rank 0
+
+rank 8: execution time: 43 seconds
+rank 8 is sending its array to rank 0
+
+rank 9: execution time: 43 seconds
+rank 9 is sending its array to rank 0
+
+rank 10: execution time: 43 seconds
+rank 10 is sending its array to rank 0
+
+rank 11: execution time: 43 seconds
+rank 11 is sending its array to rank 0
+
+rank 12: execution time: 43 seconds
+rank 12 is sending its array to rank 0
+
+rank 13: execution time: 43 seconds
+rank 13 is sending its array to rank 0
+
+rank 14: execution time: 43 seconds
+rank 14 is sending its array to rank 0
+
+rank 15: execution time: 43 seconds
+rank 15 is sending its array to rank 0
+
+rank 16: execution time: 43 seconds
+rank 16 is sending its array to rank 0
+
+rank 17: execution time: 43 seconds
+rank 17 is sending its array to rank 0
+
+rank 18: execution time: 43 seconds
+rank 18 is sending its array to rank 0
+
+rank 19: execution time: 43 seconds
+rank 19 is sending its array to rank 0
+
+rank 100: execution time: 43 seconds
+rank 100 is sending its array to rank 0
+
+rank 180: execution time: 43 seconds
+rank 180 is sending its array to rank 0
+
+rank 101: execution time: 43 seconds
+rank 101 is sending its array to rank 0
+rank 0 is receiving the array from rank 1
+rank 0 is receiving the array from rank 2
+rank 0 is receiving the array from rank 3
+rank 0 is receiving the array from rank 4
+rank 0 is receiving the array from rank 5
+rank 0 is receiving the array from rank 6
+
+rank 140: execution time: 43 seconds
+rank 140 is sending its array to rank 0
+
+rank 60: execution time: 43 seconds
+rank 60 is sending its array to rank 0
+
+rank 160: execution time: 43 seconds
+rank 160 is sending its array to rank 0
+
+rank 55: execution time: 43 seconds
+rank 55 is sending its array to rank 0
+
+rank 181: execution time: 43 seconds
+rank 181 is sending its array to rank 0
+
+rank 136: execution time: 43 seconds
+rank 136 is sending its array to rank 0
+
+rank 80: execution time: 43 seconds
+rank 80 is sending its array to rank 0
+
+rank 102: execution time: 43 seconds
+rank 102 is sending its array to rank 0
+
+rank 20: execution time: 43 seconds
+rank 20 is sending its array to rank 0
+
+rank 141: execution time: 43 seconds
+rank 141 is sending its array to rank 0
+
+rank 61: execution time: 43 seconds
+rank 61 is sending its array to rank 0
+
+rank 161: execution time: 43 seconds
+rank 161 is sending its array to rank 0
+
+rank 56: execution time: 43 seconds
+rank 56 is sending its array to rank 0
+
+rank 182: execution time: 43 seconds
+rank 182 is sending its array to rank 0
+
+rank 137: execution time: 43 seconds
+rank 137 is sending its array to rank 0
+
+rank 81: execution time: 43 seconds
+rank 81 is sending its array to rank 0
+
+rank 103: execution time: 43 seconds
+rank 103 is sending its array to rank 0
+
+rank 21: execution time: 43 seconds
+rank 21 is sending its array to rank 0
+rank 0 is receiving the array from rank 7
+
+rank 142: execution time: 43 seconds
+rank 142 is sending its array to rank 0
+
+rank 62: execution time: 43 seconds
+rank 62 is sending its array to rank 0
+
+rank 162: execution time: 43 seconds
+rank 162 is sending its array to rank 0
+
+rank 57: execution time: 43 seconds
+rank 57 is sending its array to rank 0
+
+rank 183: execution time: 43 seconds
+rank 183 is sending its array to rank 0
+
+rank 138: execution time: 43 seconds
+rank 138 is sending its array to rank 0
+
+rank 82: execution time: 43 seconds
+rank 82 is sending its array to rank 0
+
+rank 104: execution time: 43 seconds
+rank 104 is sending its array to rank 0
+
+rank 22: execution time: 43 seconds
+rank 22 is sending its array to rank 0
+
+rank 143: execution time: 43 seconds
+rank 143 is sending its array to rank 0
+
+rank 63: execution time: 43 seconds
+rank 63 is sending its array to rank 0
+
+rank 163: execution time: 43 seconds
+rank 163 is sending its array to rank 0
+
+rank 58: execution time: 43 seconds
+rank 58 is sending its array to rank 0
+
+rank 184: execution time: 43 seconds
+rank 184 is sending its array to rank 0
+
+rank 139: execution time: 43 seconds
+rank 139 is sending its array to rank 0
+
+rank 83: execution time: 43 seconds
+rank 83 is sending its array to rank 0
+
+rank 23: execution time: 43 seconds
+rank 23 is sending its array to rank 0
+
+rank 144: execution time: 43 seconds
+rank 144 is sending its array to rank 0
+
+rank 64: execution time: 43 seconds
+rank 64 is sending its array to rank 0
+
+rank 164: execution time: 43 seconds
+rank 164 is sending its array to rank 0
+
+rank 59: execution time: 43 seconds
+rank 59 is sending its array to rank 0
+
+rank 185: execution time: 43 seconds
+rank 185 is sending its array to rank 0
+
+rank 120: execution time: 43 seconds
+rank 120 is sending its array to rank 0
+
+rank 84: execution time: 43 seconds
+rank 84 is sending its array to rank 0
+
+rank 105: execution time: 43 seconds
+rank 105 is sending its array to rank 0
+
+rank 24: execution time: 43 seconds
+rank 24 is sending its array to rank 0
+
+rank 145: execution time: 43 seconds
+rank 145 is sending its array to rank 0
+
+rank 65: execution time: 43 seconds
+rank 65 is sending its array to rank 0
+
+rank 165: execution time: 43 seconds
+rank 165 is sending its array to rank 0
+
+rank 40: execution time: 43 seconds
+rank 40 is sending its array to rank 0
+
+rank 186: execution time: 43 seconds
+rank 186 is sending its array to rank 0
+
+rank 121: execution time: 43 seconds
+rank 121 is sending its array to rank 0
+
+rank 85: execution time: 43 seconds
+rank 85 is sending its array to rank 0
+
+rank 106: execution time: 43 seconds
+rank 106 is sending its array to rank 0
+
+rank 25: execution time: 43 seconds
+rank 25 is sending its array to rank 0
+
+rank 146: execution time: 43 seconds
+rank 146 is sending its array to rank 0
+
+rank 66: execution time: 43 seconds
+rank 66 is sending its array to rank 0
+
+rank 166: execution time: 43 seconds
+rank 166 is sending its array to rank 0
+
+rank 41: execution time: 43 seconds
+rank 41 is sending its array to rank 0
+
+rank 187: execution time: 43 seconds
+rank 187 is sending its array to rank 0
+
+rank 122: execution time: 43 seconds
+rank 122 is sending its array to rank 0
+
+rank 86: execution time: 43 seconds
+rank 86 is sending its array to rank 0
+
+rank 107: execution time: 43 seconds
+rank 107 is sending its array to rank 0
+
+rank 26: execution time: 43 seconds
+rank 26 is sending its array to rank 0
+
+rank 147: execution time: 43 seconds
+rank 147 is sending its array to rank 0
+
+rank 67: execution time: 43 seconds
+rank 67 is sending its array to rank 0
+
+rank 167: execution time: 43 seconds
+rank 167 is sending its array to rank 0
+
+rank 42: execution time: 43 seconds
+rank 42 is sending its array to rank 0
+
+rank 188: execution time: 43 seconds
+rank 188 is sending its array to rank 0
+
+rank 123: execution time: 43 seconds
+rank 123 is sending its array to rank 0
+
+rank 87: execution time: 43 seconds
+rank 87 is sending its array to rank 0
+
+rank 108: execution time: 43 seconds
+rank 108 is sending its array to rank 0
+
+rank 27: execution time: 43 seconds
+rank 27 is sending its array to rank 0
+rank 0 is receiving the array from rank 8
+
+rank 148: execution time: 43 seconds
+rank 148 is sending its array to rank 0
+
+rank 68: execution time: 43 seconds
+rank 68 is sending its array to rank 0
+
+rank 168: execution time: 43 seconds
+rank 168 is sending its array to rank 0
+
+rank 43: execution time: 43 seconds
+rank 43 is sending its array to rank 0
+
+rank 189: execution time: 43 seconds
+rank 189 is sending its array to rank 0
+
+rank 124: execution time: 43 seconds
+rank 124 is sending its array to rank 0
+
+rank 88: execution time: 43 seconds
+rank 88 is sending its array to rank 0
+
+rank 109: execution time: 43 seconds
+rank 109 is sending its array to rank 0
+
+rank 28: execution time: 43 seconds
+rank 28 is sending its array to rank 0
+
+rank 149: execution time: 43 seconds
+rank 149 is sending its array to rank 0
+
+rank 69: execution time: 43 seconds
+rank 69 is sending its array to rank 0
+
+rank 169: execution time: 43 seconds
+rank 169 is sending its array to rank 0
+
+rank 44: execution time: 43 seconds
+rank 44 is sending its array to rank 0
+
+rank 190: execution time: 43 seconds
+rank 190 is sending its array to rank 0
+
+rank 125: execution time: 43 seconds
+rank 125 is sending its array to rank 0
+
+rank 89: execution time: 43 seconds
+rank 89 is sending its array to rank 0
+
+rank 110: execution time: 43 seconds
+rank 110 is sending its array to rank 0
+
+rank 29: execution time: 43 seconds
+rank 29 is sending its array to rank 0
+
+rank 150: execution time: 43 seconds
+rank 150 is sending its array to rank 0
+
+rank 70: execution time: 43 seconds
+rank 70 is sending its array to rank 0
+
+rank 170: execution time: 43 seconds
+rank 170 is sending its array to rank 0
+
+rank 45: execution time: 43 seconds
+rank 45 is sending its array to rank 0
+
+rank 191: execution time: 43 seconds
+rank 191 is sending its array to rank 0
+
+rank 126: execution time: 43 seconds
+rank 126 is sending its array to rank 0
+
+rank 90: execution time: 43 seconds
+rank 90 is sending its array to rank 0
+
+rank 111: execution time: 43 seconds
+rank 111 is sending its array to rank 0
+
+rank 30: execution time: 43 seconds
+rank 30 is sending its array to rank 0
+
+rank 151: execution time: 43 seconds
+rank 151 is sending its array to rank 0
+
+rank 71: execution time: 43 seconds
+rank 71 is sending its array to rank 0
+
+rank 171: execution time: 43 seconds
+rank 171 is sending its array to rank 0
+
+rank 46: execution time: 43 seconds
+rank 46 is sending its array to rank 0
+
+rank 192: execution time: 43 seconds
+rank 192 is sending its array to rank 0
+
+rank 127: execution time: 43 seconds
+rank 127 is sending its array to rank 0
+
+rank 91: execution time: 43 seconds
+rank 91 is sending its array to rank 0
+
+rank 112: execution time: 43 seconds
+rank 112 is sending its array to rank 0
+
+rank 31: execution time: 43 seconds
+rank 31 is sending its array to rank 0
+rank 0 is receiving the array from rank 9
+
+rank 152: execution time: 43 seconds
+rank 152 is sending its array to rank 0
+
+rank 72: execution time: 43 seconds
+rank 72 is sending its array to rank 0
+
+rank 172: execution time: 43 seconds
+rank 172 is sending its array to rank 0
+
+rank 47: execution time: 43 seconds
+rank 47 is sending its array to rank 0
+
+rank 193: execution time: 43 seconds
+rank 193 is sending its array to rank 0
+
+rank 128: execution time: 43 seconds
+rank 128 is sending its array to rank 0
+
+rank 92: execution time: 43 seconds
+rank 92 is sending its array to rank 0
+
+rank 113: execution time: 43 seconds
+rank 113 is sending its array to rank 0
+
+rank 32: execution time: 43 seconds
+rank 32 is sending its array to rank 0
+
+rank 153: execution time: 43 seconds
+rank 153 is sending its array to rank 0
+
+rank 73: execution time: 43 seconds
+rank 73 is sending its array to rank 0
+
+rank 173: execution time: 43 seconds
+rank 173 is sending its array to rank 0
+
+rank 48: execution time: 43 seconds
+rank 48 is sending its array to rank 0
+
+rank 194: execution time: 43 seconds
+rank 194 is sending its array to rank 0
+
+rank 129: execution time: 43 seconds
+rank 129 is sending its array to rank 0
+
+rank 93: execution time: 43 seconds
+rank 93 is sending its array to rank 0
+
+rank 114: execution time: 43 seconds
+rank 114 is sending its array to rank 0
+
+rank 33: execution time: 43 seconds
+rank 33 is sending its array to rank 0
+
+rank 130: execution time: 43 seconds
+rank 130 is sending its array to rank 0
+
+rank 94: execution time: 43 seconds
+rank 94 is sending its array to rank 0
+
+rank 115: execution time: 43 seconds
+rank 115 is sending its array to rank 0
+
+rank 34: execution time: 43 seconds
+rank 34 is sending its array to rank 0
+
+rank 154: execution time: 43 seconds
+rank 154 is sending its array to rank 0
+
+rank 74: execution time: 43 seconds
+rank 74 is sending its array to rank 0
+
+rank 174: execution time: 43 seconds
+rank 174 is sending its array to rank 0
+
+rank 49: execution time: 43 seconds
+rank 49 is sending its array to rank 0
+
+rank 195: execution time: 43 seconds
+rank 195 is sending its array to rank 0
+
+rank 155: execution time: 43 seconds
+rank 155 is sending its array to rank 0
+
+rank 75: execution time: 43 seconds
+rank 75 is sending its array to rank 0
+
+rank 175: execution time: 43 seconds
+rank 175 is sending its array to rank 0
+
+rank 50: execution time: 43 seconds
+rank 50 is sending its array to rank 0
+
+rank 196: execution time: 43 seconds
+rank 196 is sending its array to rank 0
+
+rank 131: execution time: 43 seconds
+rank 131 is sending its array to rank 0
+
+rank 95: execution time: 43 seconds
+rank 95 is sending its array to rank 0
+
+rank 116: execution time: 43 seconds
+rank 116 is sending its array to rank 0
+
+rank 35: execution time: 43 seconds
+rank 35 is sending its array to rank 0
+
+rank 156: execution time: 43 seconds
+rank 156 is sending its array to rank 0
+
+rank 76: execution time: 43 seconds
+rank 76 is sending its array to rank 0
+
+rank 176: execution time: 43 seconds
+rank 176 is sending its array to rank 0
+
+rank 51: execution time: 43 seconds
+rank 51 is sending its array to rank 0
+
+rank 197: execution time: 43 seconds
+rank 197 is sending its array to rank 0
+
+rank 132: execution time: 43 seconds
+rank 132 is sending its array to rank 0
+
+rank 96: execution time: 43 seconds
+rank 96 is sending its array to rank 0
+
+rank 117: execution time: 43 seconds
+rank 117 is sending its array to rank 0
+
+rank 36: execution time: 43 seconds
+rank 36 is sending its array to rank 0
+
+rank 157: execution time: 43 seconds
+rank 157 is sending its array to rank 0
+
+rank 77: execution time: 43 seconds
+rank 77 is sending its array to rank 0
+
+rank 177: execution time: 43 seconds
+rank 177 is sending its array to rank 0
+
+rank 52: execution time: 43 seconds
+rank 52 is sending its array to rank 0
+
+rank 198: execution time: 43 seconds
+rank 198 is sending its array to rank 0
+
+rank 133: execution time: 43 seconds
+rank 133 is sending its array to rank 0
+
+rank 97: execution time: 43 seconds
+rank 97 is sending its array to rank 0
+
+rank 118: execution time: 43 seconds
+rank 118 is sending its array to rank 0
+
+rank 37: execution time: 43 seconds
+rank 37 is sending its array to rank 0
+rank 0 is receiving the array from rank 10
+
+rank 158: execution time: 43 seconds
+rank 158 is sending its array to rank 0
+
+rank 78: execution time: 43 seconds
+rank 78 is sending its array to rank 0
+
+rank 178: execution time: 43 seconds
+rank 178 is sending its array to rank 0
+
+rank 53: execution time: 43 seconds
+rank 53 is sending its array to rank 0
+
+rank 199: execution time: 43 seconds
+rank 199 is sending its array to rank 0
+
+rank 134: execution time: 43 seconds
+rank 134 is sending its array to rank 0
+
+rank 98: execution time: 43 seconds
+rank 98 is sending its array to rank 0
+
+rank 119: execution time: 43 seconds
+rank 119 is sending its array to rank 0
+
+rank 38: execution time: 43 seconds
+rank 38 is sending its array to rank 0
+
+rank 159: execution time: 43 seconds
+rank 159 is sending its array to rank 0
+
+rank 79: execution time: 43 seconds
+rank 79 is sending its array to rank 0
+
+rank 179: execution time: 43 seconds
+rank 179 is sending its array to rank 0
+
+rank 54: execution time: 43 seconds
+rank 54 is sending its array to rank 0
+
+rank 135: execution time: 43 seconds
+rank 135 is sending its array to rank 0
+
+rank 99: execution time: 43 seconds
+rank 99 is sending its array to rank 0
+
+rank 39: execution time: 43 seconds
+rank 39 is sending its array to rank 0
+rank 0 is receiving the array from rank 11
+rank 0 is receiving the array from rank 12
+rank 0 is receiving the array from rank 13
+rank 0 is receiving the array from rank 14
+rank 0 is receiving the array from rank 15
+rank 0 is receiving the array from rank 16
+rank 0 is receiving the array from rank 17
+rank 0 is receiving the array from rank 18
+rank 0 is receiving the array from rank 19
+rank 0 is receiving the array from rank 20
+rank 0 is receiving the array from rank 21
+rank 0 is receiving the array from rank 22
+rank 0 is receiving the array from rank 23
+rank 0 is receiving the array from rank 24
+rank 0 is receiving the array from rank 25
+rank 0 is receiving the array from rank 26
+rank 0 is receiving the array from rank 27
+rank 0 is receiving the array from rank 28
+rank 0 is receiving the array from rank 29
+rank 0 is receiving the array from rank 30
+rank 0 is receiving the array from rank 31
+rank 0 is receiving the array from rank 32
+rank 0 is receiving the array from rank 33
+rank 0 is receiving the array from rank 34
+rank 0 is receiving the array from rank 35
+rank 0 is receiving the array from rank 36
+rank 0 is receiving the array from rank 37
+rank 0 is receiving the array from rank 38
+rank 0 is receiving the array from rank 39
+rank 0 is receiving the array from rank 40
+rank 0 is receiving the array from rank 41
+rank 0 is receiving the array from rank 42
+rank 0 is receiving the array from rank 43
+rank 0 is receiving the array from rank 44
+rank 0 is receiving the array from rank 45
+rank 0 is receiving the array from rank 46
+rank 0 is receiving the array from rank 47
+rank 0 is receiving the array from rank 48
+rank 0 is receiving the array from rank 49
+rank 0 is receiving the array from rank 50
+rank 0 is receiving the array from rank 51
+rank 0 is receiving the array from rank 52
+rank 0 is receiving the array from rank 53
+rank 0 is receiving the array from rank 54
+rank 0 is receiving the array from rank 55
+rank 0 is receiving the array from rank 56
+rank 0 is receiving the array from rank 57
+rank 0 is receiving the array from rank 58
+rank 0 is receiving the array from rank 59
+rank 0 is receiving the array from rank 60
+rank 0 is receiving the array from rank 61
+rank 0 is receiving the array from rank 62
+rank 0 is receiving the array from rank 63
+rank 0 is receiving the array from rank 64
+rank 0 is receiving the array from rank 65
+rank 0 is receiving the array from rank 66
+rank 0 is receiving the array from rank 67
+rank 0 is receiving the array from rank 68
+rank 0 is receiving the array from rank 69
+rank 0 is receiving the array from rank 70
+rank 0 is receiving the array from rank 71
+rank 0 is receiving the array from rank 72
+rank 0 is receiving the array from rank 73
+rank 0 is receiving the array from rank 74
+rank 0 is receiving the array from rank 75
+rank 0 is receiving the array from rank 76
+rank 0 is receiving the array from rank 77
+rank 0 is receiving the array from rank 78
+rank 0 is receiving the array from rank 79
+rank 0 is receiving the array from rank 80
+rank 0 is receiving the array from rank 81
+rank 0 is receiving the array from rank 82
+rank 0 is receiving the array from rank 83
+rank 0 is receiving the array from rank 84
+rank 0 is receiving the array from rank 85
+rank 0 is receiving the array from rank 86
+rank 0 is receiving the array from rank 87
+rank 0 is receiving the array from rank 88
+rank 0 is receiving the array from rank 89
+rank 0 is receiving the array from rank 90
+rank 0 is receiving the array from rank 91
+rank 0 is receiving the array from rank 92
+rank 0 is receiving the array from rank 93
+rank 0 is receiving the array from rank 94
+rank 0 is receiving the array from rank 95
+rank 0 is receiving the array from rank 96
+rank 0 is receiving the array from rank 97
+rank 0 is receiving the array from rank 98
+rank 0 is receiving the array from rank 99
+rank 0 is receiving the array from rank 100
+rank 0 is receiving the array from rank 101
+rank 0 is receiving the array from rank 102
+rank 0 is receiving the array from rank 103
+rank 0 is receiving the array from rank 104
+rank 0 is receiving the array from rank 105
+rank 0 is receiving the array from rank 106
+rank 0 is receiving the array from rank 107
+rank 0 is receiving the array from rank 108
+rank 0 is receiving the array from rank 109
+rank 0 is receiving the array from rank 110
+rank 0 is receiving the array from rank 111
+rank 0 is receiving the array from rank 112
+rank 0 is receiving the array from rank 113
+rank 0 is receiving the array from rank 114
+rank 0 is receiving the array from rank 115
+rank 0 is receiving the array from rank 116
+rank 0 is receiving the array from rank 117
+rank 0 is receiving the array from rank 118
+rank 0 is receiving the array from rank 119
+rank 0 is receiving the array from rank 120
+rank 0 is receiving the array from rank 121
+rank 0 is receiving the array from rank 122
+rank 0 is receiving the array from rank 123
+rank 0 is receiving the array from rank 124
+rank 0 is receiving the array from rank 125
+rank 0 is receiving the array from rank 126
+rank 0 is receiving the array from rank 127
+rank 0 is receiving the array from rank 128
+rank 0 is receiving the array from rank 129
+rank 0 is receiving the array from rank 130
+rank 0 is receiving the array from rank 131
+rank 0 is receiving the array from rank 132
+rank 0 is receiving the array from rank 133
+rank 0 is receiving the array from rank 134
+rank 0 is receiving the array from rank 135
+rank 0 is receiving the array from rank 136
+rank 0 is receiving the array from rank 137
+rank 0 is receiving the array from rank 138
+rank 0 is receiving the array from rank 139
+rank 0 is receiving the array from rank 140
+rank 0 is receiving the array from rank 141
+rank 0 is receiving the array from rank 142
+rank 0 is receiving the array from rank 143
+rank 0 is receiving the array from rank 144
+rank 0 is receiving the array from rank 145
+rank 0 is receiving the array from rank 146
+rank 0 is receiving the array from rank 147
+rank 0 is receiving the array from rank 148
+rank 0 is receiving the array from rank 149
+rank 0 is receiving the array from rank 150
+rank 0 is receiving the array from rank 151
+rank 0 is receiving the array from rank 152
+rank 0 is receiving the array from rank 153
+rank 0 is receiving the array from rank 154
+rank 0 is receiving the array from rank 155
+rank 0 is receiving the array from rank 156
+rank 0 is receiving the array from rank 157
+rank 0 is receiving the array from rank 158
+rank 0 is receiving the array from rank 159
+rank 0 is receiving the array from rank 160
+rank 0 is receiving the array from rank 161
+rank 0 is receiving the array from rank 162
+rank 0 is receiving the array from rank 163
+rank 0 is receiving the array from rank 164
+rank 0 is receiving the array from rank 165
+rank 0 is receiving the array from rank 166
+rank 0 is receiving the array from rank 167
+rank 0 is receiving the array from rank 168
+rank 0 is receiving the array from rank 169
+rank 0 is receiving the array from rank 170
+rank 0 is receiving the array from rank 171
+rank 0 is receiving the array from rank 172
+rank 0 is receiving the array from rank 173
+rank 0 is receiving the array from rank 174
+rank 0 is receiving the array from rank 175
+rank 0 is receiving the array from rank 176
+rank 0 is receiving the array from rank 177
+rank 0 is receiving the array from rank 178
+rank 0 is receiving the array from rank 179
+rank 0 is receiving the array from rank 180
+rank 0 is receiving the array from rank 181
+rank 0 is receiving the array from rank 182
+rank 0 is receiving the array from rank 183
+rank 0 is receiving the array from rank 184
+rank 0 is receiving the array from rank 185
+rank 0 is receiving the array from rank 186
+rank 0 is receiving the array from rank 187
+rank 0 is receiving the array from rank 188
+rank 0 is receiving the array from rank 189
+rank 0 is receiving the array from rank 190
+rank 0 is receiving the array from rank 191
+rank 0 is receiving the array from rank 192
+rank 0 is receiving the array from rank 193
+rank 0 is receiving the array from rank 194
+rank 0 is receiving the array from rank 195
+rank 0 is receiving the array from rank 196
+rank 0 is receiving the array from rank 197
+rank 0 is receiving the array from rank 198
+rank 0 is receiving the array from rank 199
