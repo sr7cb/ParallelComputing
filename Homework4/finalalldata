@@ -1,0 +1,21 @@
+Grid: 10000x10000, Iterations: 10000,  Number Threads: 1
+ 
+Execution time: 2102 seconds
+Grid: 10000x10000, Iterations: 10000,  Number Threads: 2
+ 
+Execution time: 1220 seconds
+Grid: 10000x10000, Iterations: 10000,  Number Threads: 4
+ 
+Execution time: 988 seconds
+Grid: 10000x10000, Iterations: 10000,  Number Threads: 8
+ 
+Execution time: 987 seconds
+Grid: 10000x10000, Iterations: 10000,  Number Threads: 16
+ 
+Execution time: 1007 seconds
+Grid: 10000x10000, Iterations: 10000,  Number Threads: 32
+ 
+Execution time: 916 seconds
+Grid: 10000x10000, Iterations: 10000,  Number Threads: 64
+ 
+Execution time: 908 seconds

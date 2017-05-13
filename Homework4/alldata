@@ -1,0 +1,7 @@
+Grid: 10000x10000, Iterations: 10000
+ 
+Execution time: 2533 seconds
+Grid: 10000x10000, Iterations: 10000
+ 
+Execution time: 1500 seconds
+slurmstepd: error: *** JOB 100488 ON hermes1 CANCELLED AT 2017-04-29T18:54:07 DUE TO TIME LIMIT ***

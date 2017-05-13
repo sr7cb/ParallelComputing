@@ -1,0 +1,50 @@
+Matrix A is 1000-by-1000
+Matrix B is 1000-by-1000
+Matrix C is 1000-by-1000
+Computation time in the GPU: 0.818236 seconds
+Computation time in the GPU: 0.028667 seconds
+Matrix A is 2000-by-2000
+Matrix B is 2000-by-2000
+Matrix C is 2000-by-2000
+Computation time in the GPU: 0.914088 seconds
+Computation time in the GPU: 0.161700 seconds
+Matrix A is 3000-by-3000
+Matrix B is 3000-by-3000
+Matrix C is 3000-by-3000
+Computation time in the GPU: 1.178949 seconds
+Computation time in the GPU: 0.506511 seconds
+Matrix A is 4000-by-4000
+Matrix B is 4000-by-4000
+Matrix C is 4000-by-4000
+Computation time in the GPU: 1.844029 seconds
+Computation time in the GPU: 1.115868 seconds
+Matrix A is 5000-by-5000
+Matrix B is 5000-by-5000
+Matrix C is 5000-by-5000
+Computation time in the GPU: 2.929999 seconds
+Computation time in the GPU: 2.178125 seconds
+Matrix A is 6000-by-6000
+Matrix B is 6000-by-6000
+Matrix C is 6000-by-6000
+Computation time in the GPU: 4.447373 seconds
+Computation time in the GPU: 3.684396 seconds
+Matrix A is 7000-by-7000
+Matrix B is 7000-by-7000
+Matrix C is 7000-by-7000
+Computation time in the GPU: 6.459365 seconds
+Computation time in the GPU: 5.779460 seconds
+Matrix A is 8000-by-8000
+Matrix B is 8000-by-8000
+Matrix C is 8000-by-8000
+Computation time in the GPU: 9.115168 seconds
+Computation time in the GPU: 8.432032 seconds
+Matrix A is 9000-by-9000
+Matrix B is 9000-by-9000
+Matrix C is 9000-by-9000
+Computation time in the GPU: 12.804000 seconds
+Computation time in the GPU: 12.108479 seconds
+Matrix A is 10000-by-10000
+Matrix B is 10000-by-10000
+Matrix C is 10000-by-10000
+Computation time in the GPU: 17.122373 seconds
+Computation time in the GPU: 16.447461 seconds
